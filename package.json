@@ -1,0 +1,24 @@
+{
+  "name": "proteo-ui-customeracc",
+  "version": "0.1.0",
+  "devDependencies": {
+    "bower": "^1.6.3",
+    "grunt": "^0.4.5",
+    "grunt-angular-templates": "^0.5.7",
+    "grunt-contrib-concat": "^0.5.1",
+    "grunt-contrib-jshint": "^0.11.3",
+    "grunt-contrib-uglify": "^0.5.1",
+    "grunt-html2js": "^0.3.5",
+    "jasmine-core": "^2.3.4",
+    "karma": "^0.13.14",
+    "karma-chrome-launcher": "^0.2.1",
+    "karma-jasmine": "^0.3.6"
+  },
+  "main": "Gruntfile.js",
+  "dependencies": {},
+  "scripts": {
+    "test": "./node_modules/karma/bin/karma start karma.conf.js"
+  },
+  "author": "jrc",
+  "license": "ISC"
+}

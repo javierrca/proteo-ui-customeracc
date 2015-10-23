@@ -1,0 +1,30 @@
+{
+  "name": "proteo-ui-customeracc",
+  "homepage": "https://github.com/javierrca/proteo-ui-customeracc",
+  "authors": [
+    "JRC"
+  ],
+  "description": "proteo customeracc",
+  "main": [
+    "dist/proteo-ui-customeracc-dist.js",
+    "dist/proteo-ui-customeracc-dist.css",
+	"dist/proteo-ui-customeracc-dist.min.js",
+    "dist/proteo-ui-customeracc-dist.min.css"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "src",
+    "test"
+  ],
+  "dependencies": {
+    "angular": "~1.4.7"
+  },
+  "devDependencies": {
+    "jquery": "~1.11",
+    "angular-sanitize": ">=1.2.18",
+    "angular-mocks": ">=1.2.18"
+  }
+}
